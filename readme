@@ -1,0 +1,43 @@
+# Flask Web Application
+
+This is a simple Flask web application that displays users from a database.
+
+## Setup Instructions
+
+1. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+
+2. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Initialize the database and add sample data:
+   ```bash
+   python query.py
+   ```
+
+5. Run the application:
+   ```bash
+   python run.py
+   ```
+
+6. Open your web browser and navigate to:
+   - http://localhost:5000/ - Home page
+   - http://localhost:5000/users - Users list
+
+## Running Tests
+
+To run the unit tests:
